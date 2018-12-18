@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite">
+	<test name="Java Script Executor">
+		<classes>
+			<class name="Topics.javaScriptExecutor" />
+		</classes>
+	</test>
+	<test name="Log 4j">
+		<classes>
+			<class name="Topics.log4j" />
+		</classes>
+	</test>
+	<test name="Mobile Emulation">
+		<classes>
+			<class name="Topics.log4j" />
+		</classes>
+	</test>
+	<test name="Multiple Tab Handling">
+		<classes>
+			<class name="Topics.multipleTabHandling" />
+		</classes>
+	</test>
+	
+</suite> <!-- Suite -->
