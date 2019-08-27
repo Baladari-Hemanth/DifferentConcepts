@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Topics.javaScriptExecutor">
+      <class name="Test.TestClass">
         <methods>
-          <include name="sendKeysMethod"/>
-          <include name="openBrowser"/>
-          <include name="closeBroswer"/>
+          <include name="setup"/>
+          <include name="test_Home_Page_Appear_Correct"/>
+          <include name="closeBrowser"/>
         </methods>
-      </class> <!-- Topics.javaScriptExecutor -->
+      </class> <!-- Test.TestClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

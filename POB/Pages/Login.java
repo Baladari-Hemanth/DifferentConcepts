@@ -7,7 +7,9 @@ public class Login {
 
 	WebDriver driver;
 
-	By UserID = By.xpath("//input[@name='uid']");
+//	By UserID = By.xpath("//input[@name='uid']");
+	
+	By Userid = By.cssSelector("input#uid");
 
 	By Password = By.xpath("//input[@name='password']");
 
@@ -23,7 +25,7 @@ public class Login {
 
 	public void setUserName(String strUserName){
 
-		driver.findElement(UserID).sendKeys(strUserName);
+		driver.findElement(Userid).sendKeys(strUserName);
 
 	}
 

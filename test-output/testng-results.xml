@@ -2,24 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="18193" started-at="2018-12-17T14:45:02Z" finished-at="2018-12-17T14:45:20Z">
+  <suite name="Default suite" duration-ms="157" started-at="2019-08-22T06:58:00Z" finished-at="2019-08-22T06:58:00Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="18193" started-at="2018-12-17T14:45:02Z" finished-at="2018-12-17T14:45:20Z">
-      <class name="Test.TestClass">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Test.TestClass@511baa65]" name="setup" is-config="true" duration-ms="10589" started-at="2018-12-17T20:15:02Z" finished-at="2018-12-17T20:15:12Z">
+    <test name="Default test" duration-ms="157" started-at="2019-08-22T06:58:00Z" finished-at="2019-08-22T06:58:00Z">
+      <class name="Topics.log4j">
+        <test-method status="PASS" signature="log4jConfiguration()[pri:0, instance:Topics.log4j@4667ae56]" name="log4jConfiguration" duration-ms="139" started-at="2019-08-22T12:28:00Z" finished-at="2019-08-22T12:28:00Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test_Home_Page_Appear_Correct()[pri:0, instance:Test.TestClass@511baa65]" name="test_Home_Page_Appear_Correct" duration-ms="5276" started-at="2018-12-17T20:15:12Z" finished-at="2018-12-17T20:15:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_Home_Page_Appear_Correct -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Test.TestClass@511baa65]" name="closeBrowser" is-config="true" duration-ms="2310" started-at="2018-12-17T20:15:17Z" finished-at="2018-12-17T20:15:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- Test.TestClass -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- log4jConfiguration -->
+      </class> <!-- Topics.log4j -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

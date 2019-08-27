@@ -17,8 +17,6 @@ public class crossBrowsing {
 	@BeforeTest
 	public void openBrowser(String browser) throws Exception{
 		//Check if parameter passed from TestNG is 'firefox'
-
-		
 		if(browser.equalsIgnoreCase("Firefox")) {
 			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"\\Drivers\\geckodriver.exe");
 			driver = new FirefoxDriver();
